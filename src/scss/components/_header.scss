@@ -1,0 +1,42 @@
+.header {
+    display: grid;
+    background: $app-color;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+    
+    &__title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 20px;
+        margin-left: 50px;
+    }
+
+    &__notification-btn {
+        border: none;
+        margin: 20px;
+        margin-top: 20px;
+    }
+
+    &__profile {
+        display: flex;
+        flex-direction: row;
+        max-width: 150px;
+        margin-left: 500px;
+    }
+
+    &__user-name {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 24px;
+        margin: 10px;
+    }
+
+    &__notification-dropdown-btn {
+        border: none;
+    }
+}
+   

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/index.scss">
+    <title>VK DASHBOARD</title>
+</head>
+<body>
+    <div class="app">
+<!--NAV-->        
+        <nav class="nav"> 
+            <div class="nav__logo"> 
+               <img class="nav__logo-img" alt="" src="./assets/nav/logo.png">    
+            </div>
+            <div class="nav__link"> 
+                <img class="nav__icon" alt="" src="./assets/nav/news.jpg">  
+                <img class="nav__icon" alt="" src="./assets/nav/people.png">  
+                <img class="nav__icon" alt="" src="./assets/nav/message.png">  
+                <img class="nav__icon" alt="" src="./assets/nav/music.png">  
+                <img class="nav__icon" alt="" src="./assets/nav/statistics.png">  
+                <img class="nav__icon" alt="" src="./assets/nav/settings.png">  
+            </div>
+            <div class="nav__toggle-theme">
+                <img class="nav__tumbler" alt="" src="./assets/nav/tumbler.png">  
+            </div>
+        </nav>
+<!--HEADER-->         
+        <header class="header"> 
+            <h1 class="header__title">Statistics</h1>
+            <div class="header__search-form"> 
+                <input class="header__search" type="search">
+                <button class="header__notification-btn"><img alt="" src="./assets/header/notification.png"></button>
+            </div>
+            <div class="header__profile">  
+                <p class="header__user-name">Anya</p>
+                <img  class="header__avatar" src="./assets/header/avatar.png" alt="">
+                <button class="header__notification-dropdown-btn"> <img alt="" src="./assets/header/pointer.png"> </button>
+            </div>
+        </header>
+<!--MAIN-->         
+        <main class="main"> 
+            <div class="card"> 
+                <p class="card__title">Friends</p>
+                <button class="card__menu-btn"><img alt="" src="./assets/main/menu.png"></button>
+                <p class="card__info">271 people</p> 
+                <div class="card__statistics">+ 0,7%</div>
+            </div>
+            <div class="card"> 
+                <p class="card__title">Unique visitors </p>
+                <button class="card__menu-btn"><img alt="" src="./assets/main/menu.png"></button>
+                <p class="card__info">69 people</p>
+                <div class="card__statistics">- 1,7%</div>
+            </div>
+            <div class="card"> 
+                <p class="card__title">Followers</p>
+                <button class="card__menu-btn"><img alt="" src="./assets/main/menu.png"></button>
+                <p class="card__info">288 people</p>
+                <div class="card__statistics">+ 1%</div>
+            </div>
+
+            <div class="card-graph">
+                <p class="card-graph__title">Audience reach</p>
+                <input class="card-graph__data" type="date"> 
+                <img class="card-graph__characteristics" alt="" src="./assets/main/characteristics.png">
+                <img class="card-graph__graphs" alt="" src="./assets/main/graph.png"> 
+            </div>
+
+            <div class="card-sector">
+                <p class="card-sector__title">Reach by device</p>
+                <img  class="card-sector__sectors" alt="" src="./assets/main/sector.png"> 
+            </div>
+
+            <div class="card-histogram">
+                <p class="card-histogram__title">Gender / Age</p>
+                <img  class="card-histogram__characteristic" alt="" src="./assets/main/characteristic.png"> 
+                <img  class="card-histogram__histograms" alt="" src="./assets/main/histogram.png"> 
+            </div>
+
+            <div class="card-linear">
+                <p class="card-linear__title">Geo</p>
+                <p class="card-linear__country">Country City</p>
+                <img  class="card-linear__sectors" alt="" src="./assets/main/linear.png"> 
+            </div>
+        </main>
+    </div>
+</body>
+</html>

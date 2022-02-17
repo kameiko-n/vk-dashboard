@@ -1,0 +1,12 @@
+.main {
+    padding: 15px;
+    background: $app-color;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'card card card'
+                        ' graph graph sector'
+                        ' histogram histogram linear';
+    grid-gap: 10px;
+
+}

@@ -1,0 +1,27 @@
+body {
+    background: #e9e5e5;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 115px 1fr;
+    grid-template-areas: 'nav header'
+                          'nav main';
+
+    max-width: 1280px;
+    min-height: 880px;
+    margin: 50px auto 0;
+    border-radius: $rounded;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+
+    @media screen and (max-width: 568px) {
+        grid-template-columns:  1fr;
+        grid-template-rows: 80px 150px 1fr;
+        grid-template-areas: 'nav'
+                              'header'
+                              'main'; 
+        
+    }
+}
