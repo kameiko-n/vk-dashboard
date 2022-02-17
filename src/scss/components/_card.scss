@@ -9,7 +9,7 @@
     border-radius: $rounded;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    grid-gap: 2vw;
+    grid-gap: 1vw;
     
 
     &__title {
@@ -26,6 +26,7 @@
         display: grid;
         justify-items: start;
         margin-left: 20px;
+        margin-bottom: 20px;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
